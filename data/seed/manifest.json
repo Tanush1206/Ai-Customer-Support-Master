@@ -1,0 +1,80 @@
+[
+  {
+    "filename": "plans-and-pricing.md",
+    "title": "Nimbus Plans & Pricing",
+    "topic": "Billing & Plans",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "billing-and-refunds-faq.md",
+    "title": "Billing & Refunds FAQ",
+    "topic": "Billing & Plans",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "account-and-login.md",
+    "title": "Account & Login Help",
+    "topic": "Account & Security",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "security-and-privacy.md",
+    "title": "Security & Privacy at Nimbus",
+    "topic": "Account & Security",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "sharing-and-collaboration.md",
+    "title": "Sharing & Collaboration Guide",
+    "topic": "Sharing & Collaboration",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "sync-and-desktop-app.md",
+    "title": "Sync & the Nimbus Desktop App",
+    "topic": "Sync & Desktop",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "sync-troubleshooting.md",
+    "title": "Fixing Sync Problems",
+    "topic": "Troubleshooting",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "storage-and-limits.md",
+    "title": "Storage, Limits & Trash",
+    "topic": "Storage & Limits",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "mobile-app.md",
+    "title": "Using the Nimbus Mobile App",
+    "topic": "Mobile",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "integrations.md",
+    "title": "Nimbus Integrations",
+    "topic": "Integrations",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "getting-started.md",
+    "title": "Getting Started with Nimbus",
+    "topic": "Other",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "resolved-tickets-billing.md",
+    "title": "Resolved Support Tickets — Billing",
+    "topic": "Billing & Plans",
+    "sourceType": "markdown"
+  },
+  {
+    "filename": "resolved-tickets-sync.md",
+    "title": "Resolved Support Tickets — Sync & Technical",
+    "topic": "Troubleshooting",
+    "sourceType": "markdown"
+  }
+]
