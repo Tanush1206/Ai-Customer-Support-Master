@@ -13,6 +13,16 @@ human agent does not need to re-read the entire thread.*
 
 ---
 
+## Team Members
+
+- Tanush Thakran
+- Ashmit Kumar
+- Nachiketas Iyer
+- Ajij Uttam
+- Shreeya Reddy L
+
+---
+
 ## Stack
 
 | Concern | Choice |
