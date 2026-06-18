@@ -601,9 +601,10 @@ function Composer({
           {busy ? "…" : "Send"}
         </button>
       </div>
-      <p className="mt-2 font-mono text-[9px] uppercase tracking-[0.16em] text-ink-soft/70">
-        Enter to send · Shift+Enter for a new line
-      </p>
+      <div className="mt-2 flex items-center justify-between font-mono text-[9px] uppercase tracking-[0.16em] text-ink-soft/70">
+        <span>Enter to send · Shift+Enter for a new line</span>
+        {value.trim() && <span>{value.trim().length} chars</span>}
+      </div>
     </div>
   );
 }
