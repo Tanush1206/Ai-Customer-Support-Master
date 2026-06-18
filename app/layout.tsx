@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${display.variable} ${body.variable} ${mono.variable}`}>
       <body className="grain min-h-dvh bg-paper text-ink antialiased">
-        <header className="border-b border-line-strong">
+        <header className="sticky top-0 z-30 border-b border-line-strong bg-paper/85 backdrop-blur-sm">
           <div className="mx-auto flex max-w-6xl items-end justify-between gap-6 px-6 py-4">
             <Link href="/" className="group flex items-baseline gap-3">
               <span className="font-display text-3xl font-semibold tracking-tight leading-none">
@@ -46,6 +46,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         {children}
+        <footer className="mt-12 border-t border-line">
+          <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 py-6 sm:flex-row">
+            <p className="eyebrow">Nimbus Support Desk · Est. 2026</p>
+            <nav className="flex items-center gap-4 font-mono text-[10px] uppercase tracking-[0.18em] text-ink-soft">
+              <Link href="/" className="transition-colors hover:text-accent">
+                Chat
+              </Link>
+              <Link href="/desk" className="transition-colors hover:text-accent">
+                The Desk
+              </Link>
+              <span className="text-ink-soft/60">© 2026 Nimbus</span>
+            </nav>
+          </div>
+        </footer>
       </body>
     </html>
   );
