@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${display.variable} ${body.variable} ${mono.variable}`}>
       <body className="grain min-h-dvh bg-paper text-ink antialiased">
-        <header className="border-b border-line-strong">
+        <header className="sticky top-0 z-30 border-b border-line-strong bg-paper/85 backdrop-blur-sm">
           <div className="mx-auto flex max-w-6xl items-end justify-between gap-6 px-6 py-4">
             <Link href="/" className="group flex items-baseline gap-3">
               <span className="font-display text-3xl font-semibold tracking-tight leading-none">
