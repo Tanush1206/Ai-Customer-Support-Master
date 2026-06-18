@@ -307,6 +307,16 @@ function EmptyState({ onPick, disabled }: { onPick: (q: string) => void; disable
         Ask anything about Nimbus — storage, billing, sharing, sync. Our AI resolves common issues
         instantly and hands the tricky ones to a human with the full story.
       </p>
+      <div className="mt-6 flex flex-wrap gap-2">
+        {["Billing", "Security", "Sharing", "Sync"].map((tag) => (
+          <span
+            key={tag}
+            className="rounded-full border border-line bg-paper-2/60 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.16em] text-ink-soft"
+          >
+            {tag}
+          </span>
+        ))}
+      </div>
       <div className="mt-9 border-t border-line pt-5">
         <p className="eyebrow mb-3">Start with a question</p>
         <div className="grid gap-2 sm:grid-cols-2">
